@@ -5,12 +5,12 @@ import androidx.compose.runtime.Composable
 import dev.aungkyawpaing.libmodule.PreviewGroupFromAnotherModule
 
 @Composable
-fun UnstableNameComposable() {
+fun ComposableB() {
   Text("Unstable name Composable")
 }
 
 @PreviewGroupFromAnotherModule
 @Composable
-fun ComposeFromAnotherModulePreview() {
-  UnstableNameComposable()
+fun ComposableBPreview() {
+  ComposableB()
 }
